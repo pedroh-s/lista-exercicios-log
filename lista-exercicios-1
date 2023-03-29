@@ -1,0 +1,117 @@
+Exercicio 1
+a) não é formula logica proposicional, conforme a definição da regra do livro, item 1.2;
+b) é uma formula logica proposicional porem não conseguimos fazer uma forma simplificada, mediante conceito do item 1.2;
+c) é uma formula logica proposicional, contudo, não conseguimos realizar a simplificação
+d) não é uma formula logica proposicional, como descrito o conceito da 1.2
+e) é uma formula logica proposicional, contudo, não conseguimos realizar a simplificação
+------------------------------------------------------------------------------------------
+Exercicio 2
+a) Existe. Nesse caso a formula vai ser composto por um simbolo verdade (True) ou um simbolo proposicional.
+b) Possui 4, são eles símbolos de pontuação, símbolos proposicional, conectivos proposicionais e símbolos de verdade;
+c) Não, pois todas as formulas com conectivo possui algum simbolo de pontuação.
+
+---------------------------------------------------------------------------------------
+Exercicio 3
+a)H=((¬¬P ∨ Q) ↔ (P → Q)) ∧ P10.000
+Comp[H]=((¬¬P ∨ Q) ↔ (P → Q)) ∧ P10.000
+Comp[H]=((¬¬P ∨ Q) ↔ (P → Q)) comp[P10.000]+1
+Comp[H]=((¬¬P ∨ Q)(P → Q)) comp[P10.000]+1+1
+Comp[H]=((¬¬P ∨ Q)+comp[P]+comp[Q]+1+3
+Comp[H]=comp[P]+comp[Q]+1+1+1+6
+comp[H]=1+1+1+1+1+6
+comp[H]=11
+Subformula= {((¬¬P ∨ Q) ↔ (P → Q)) ∧ P10.000, P, Q, P10.000, ((¬¬P ∨ Q) ↔ (P → Q)), (P → Q),  , (¬¬P ∨ Q), ¬¬P,¬P}
+
+b)  H= P → ((Q → R) → ((P → R) → (P → R)))
+Comp[H] = Comp[P]+1+ ((Q → R) → ((P → R) → (P → R)))
+Comp[H] = 1+1+Comp[Q]+Comp[R]+1+1+1+(P → R)+(P → R)
+Comp[H] = 7+Comp[P]+Comp[R]+1+Comp[P]+Comp[R]+1
+Comp[H] = 7+1+1+1+1+1+1
+Comp[H] = 13
+
+Subformula{ P → ((Q → R) → ((P → R) → (P → R))), P, Q, R, ((Q → R) → ((P → R) → (P → R), (P → R)+(P → R)}
+
+c) H = ((P → ¬P) ↔ ¬P) ∨ Q
+Comp[H] = ((P → ¬P) ↔ ¬P) + Comp[Q] + 1
+Comp[H] = (P → ¬P) + Comp[P] + 1 + 1 + 2
+Comp[H] = Comp[P]+1+Comp[P]+1+5
+Comp[H] = 1 + 1 + 1 + 1 + 5
+Comp[H] = 9
+Subformula{((P → ¬P) ↔ ¬P) ∨ Q; P; Q; ((P → ¬P) ↔ ¬P); (P → ¬P)}
+
+d) H = ¬(P → ¬P)
+Comp[H] = 1 + Comp[P] + 1 + Comp[P] + 1
+Comp[H] = 5
+Subformula{¬(P → ¬P), P, ¬P, P-> }
+
+-----------------------------------------------------------------------------------
+
+4) a) ((¬(¬P)) ↔ ((¬((¬(¬(P ∨ Q))) → R)) ∧ P))
+((¬(¬P))<->((¬((¬¬(P V Q))-> R))^P))
+((¬(¬P)) <-> ((¬((¬¬(P V Q))-> R))^P))
+((¬¬P)<->((¬((¬¬(PVQ))->R))^P))
+
+
+
+b) Nada a retirar
+
+c)  (( P ∨Q) → (P → (¬Q)))
+( P ∨ Q) → (P → ¬Q)
+(P V Q) -> (P -> ¬Q)
+(P V Q) -> P ->¬Q
+-----------------------------------------------------------------------------------
+5)
+a) P ∨ ¬Q → R → ¬R
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------
+
+Exercicio 6
+Exercício 3
+a) ∧ <-> ∨ ¬¬PQ ->PQtrue
+b) ->P->->QR->->PR->PR
+c) ∨ <->->P¬P¬PQ
+d) ¬ ->P¬P
+Exercício 4
+a) <-> ∧¬ -> ¬¬∨PQRP¬¬P
+b) <->-> ¬P∨QR<-> ∧PQ∨¬¬R¬P
+c) ->∨PQ->P¬Q
+
+
+7)
+
+
+
+
+
+-----------------------------------------------------------------------------------------
+8)
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------
+10)
+a) Seria um numero impar
+
+b) é o dobro de conectivos, mais um
+
+
+
+
+
+
+
+
+
